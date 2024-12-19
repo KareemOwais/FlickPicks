@@ -1,0 +1,94 @@
+body {
+    display: flex; /*Flexible Box Layout module is a layout just like inline and block
+    but make it easier to content in top of each other and manipulate them*/
+    /*We mainly used it here to use align_items and justify-content so we can center whole div(container_
+    in the page */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0 10px;
+    background-image: url("../Images/Login/Image.jpg");
+  }
+.Container {
+  width: 400px;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(8px);
+}
+.logo{
+  position: absolute;
+  top: -22%;
+  left: 55%;
+  transform: translate(-50%,0%);
+  max-width: 400px;
+}
+.logo2{
+  position: absolute;
+  top: -20%;
+  left:4%;
+  transform: translate(-50%,0%);
+  max-width: 100px;
+}
+h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: white;
+}
+.fourm {
+  position: relative;
+  border-bottom: 2px solid #ccc;
+  margin: 15px 0;
+}
+.fourm label {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 16px;
+  transition: 0.15s ;
+}
+.fourm input {
+  width: 100%;
+  height: 40px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: white;
+}
+.fourm input:focus~label /* This is for when press on field to start typing*/
+,.fourm input:valid~label /* animations remains upwards after user enters any input*/
+{
+  font-size: 0.8rem;
+  top: 10px;
+  transform: translateY(-120%);
+}
+
+.Container a {
+  color: #efefef;
+}
+button {
+  background: white;
+  color: #000;
+  font-weight: 600;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 16px;
+  border: 2px solid transparent;
+  transition: 0.3s ease;
+}
+button:hover {
+  color: white;
+  border-color: white;
+  background: rgba(255, 255, 255, 0.24);
+}
+.register {
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+}

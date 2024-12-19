@@ -1,0 +1,185 @@
+
+.Movie{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    height: 300px;
+    align-items: center;
+}
+.Movie h1,h2,h3,h5{
+    color: #ddd;
+}
+.Movie img{
+    padding: 0 20px;
+    height: 300px;
+}
+#Info{
+    margin-top:-110px ;
+    line-height: 1.6;
+    width: 40%;
+}
+#Info pre{
+    color: white;
+    padding: 3px;
+}
+#Desc{
+    margin-left: -60px;
+    margin-top: 10px;
+    width: 300px;
+}
+#Desc h5{
+    color: gray;
+    text-decoration: underline;
+}
+.star{
+    margin-left: 10px;
+    color:goldenrod;
+}
+table{
+    width: 30%;
+    text-align: center;
+    color: #ddd;
+}
+.icon {
+    transition: color 0.3s ease; 
+}
+
+.icon-eye:hover {
+    cursor: pointer; 
+    color: green !important;
+}
+
+.icon-heart:hover {
+    cursor: pointer; 
+    color: #e74c3c !important ;
+}
+
+.icon-watch:hover {
+    cursor: pointer; 
+    color: rgb(0, 13, 255) !important; 
+}
+#row1 i{
+    padding: 0 10px;
+}
+table td{
+    padding: 15px;
+}
+.rating{
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.rate {
+    cursor: pointer; 
+    transition: color 0.3s ease;
+}
+
+.rate:hover,
+.rate:hover ~ .rate {
+    color: goldenrod;
+}
+table h2,h4{
+    color: white;
+}
+table a{
+    text-decoration: none;
+    color: white;
+}
+.cast{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+    color: #ddd;
+}
+.cast span{
+    color: white;
+    background-color: gray;
+    padding: 7px 15px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+#word{
+    justify-content: center;
+    width: 30%;
+    display: flex;
+    margin: auto;
+    color: white;
+    padding: 7px 7px;
+}
+.reviews-container {
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.review {
+    display: flex;
+    border-bottom: 1px solid #333;
+    padding: 15px 0;
+    align-items: flex-start;
+    transition: 0.5s ease;
+}
+
+.review img.profile {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.review-content {
+    flex: 1;
+}
+
+.review-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.review-header i{
+    margin-top: -10px;
+}
+
+.review-header span.username {
+    font-weight: 600;
+    color: #78e08f;
+    margin-right: 5px;
+}
+
+.review-header span.rating {
+    color: #78e08f;
+}
+
+.review-header span.comment-count {
+    color: #888;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.review-text {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #ddd;
+}
+
+.like-container {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: #888;
+}
+
+.like-container i {
+    margin-right: 5px;
+}
+
+.likes {
+    margin-left: 5px;
+    color: #aaa;
+}
+.review:hover{
+    transform: scale(1.4);
+}

@@ -1,0 +1,63 @@
+footer {
+    background-color: #1b1f23;
+    padding: 20px 10%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-links a {
+    color: #ccc;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    transition: color 0.3s ease;
+    color: #fff;
+}
+
+.footer-text {
+    font-size: 12px;
+    color: #aaa;
+}
+
+.footer-text a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer-text a:hover {
+    transition: color 0.3s ease;
+    color: #fff;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    filter: brightness(0.6); /* Dim the color to enable the animation while hovering */
+    transition: transform 0.3s ease; /* Smooth hover animation */
+}
+
+.social-icons img:hover {
+    transform: scale(1.1); /* Slight zoom effect */
+    filter: brightness(1);
+}
